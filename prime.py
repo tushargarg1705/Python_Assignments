@@ -1,5 +1,5 @@
 start_no=int(input('Enter the number from which you want to start:'))
-end_no= int(input('Enter the number upto which you want to check:'))
+end_no=int(input('Enter the number upto which you want to check:'))
 
 
 def prime(start_no, end_no):
