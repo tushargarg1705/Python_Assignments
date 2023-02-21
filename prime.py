@@ -4,6 +4,7 @@ end_no=int(input('Enter the number upto which you want to check:'))
 
 def prime(start_no, end_no):
 
+    print('Prime numbers are:')
     for num in range(start_no,end_no +1 ):
         if num>1:
             for i in range(2,num):
@@ -11,7 +12,7 @@ def prime(start_no, end_no):
                     break;
             
             else:
-                print('Prime numbers are:',num)
+                print(num)
 
 
 
