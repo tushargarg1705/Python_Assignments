@@ -1,10 +1,13 @@
+
+
+
 from model import Person
 from model import Blog
 
 #User Data
 
 def startView():
-   print('Do you want enter the data? [y/n]')
+   print('Do you want to enter the data? [y/n]')
 
    
 def enterInput():
@@ -35,8 +38,8 @@ def enterBlog():
 
    
 def inputBlog():
-   bname=input("Enter Name: ")
-   bdate=input("Enter Date: ")
+   bname=input("Enter Blog Name: ")
+   bdate=input("Enter published Date: ")
    btopic=input("Enter Topic: ")
    
    #buser= showInput()

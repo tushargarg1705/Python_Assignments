@@ -36,6 +36,10 @@ class Person(object):
     def initials(self):
         return self.first_name[0]+"."+self.last_name[0]
     
+    
+    
+    
+    
     @classmethod
     def getAllUser(cls):
         values = open('User.csv', 'r')
@@ -78,3 +82,4 @@ class Blog(object):
         for row in read:
             result.extend([{field[i]:row[field[i]] for i in range(len(field))}])
         return result
+    
